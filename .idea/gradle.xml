@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/buildSrc" />
+            <option value="$PROJECT_DIR$/custom" />
+            <option value="$PROJECT_DIR$/custom/acme" />
+            <option value="$PROJECT_DIR$/custom/acme/event" />
+            <option value="$PROJECT_DIR$/custom/acme/event/externalevent" />
+            <option value="$PROJECT_DIR$/custom/acme/event/starter" />
+            <option value="$PROJECT_DIR$/custom/acme/loan" />
+            <option value="$PROJECT_DIR$/custom/acme/loan/cob" />
+            <option value="$PROJECT_DIR$/custom/acme/loan/job" />
+            <option value="$PROJECT_DIR$/custom/acme/loan/processor" />
+            <option value="$PROJECT_DIR$/custom/acme/loan/starter" />
+            <option value="$PROJECT_DIR$/custom/acme/note" />
+            <option value="$PROJECT_DIR$/custom/acme/note/service" />
+            <option value="$PROJECT_DIR$/custom/acme/note/starter" />
+            <option value="$PROJECT_DIR$/custom/docker" />
+            <option value="$PROJECT_DIR$/fineract-avro-schemas" />
+            <option value="$PROJECT_DIR$/fineract-client" />
+            <option value="$PROJECT_DIR$/fineract-doc" />
+            <option value="$PROJECT_DIR$/fineract-provider" />
+            <option value="$PROJECT_DIR$/fineract-war" />
+            <option value="$PROJECT_DIR$/integration-tests" />
+            <option value="$PROJECT_DIR$/oauth2-tests" />
+            <option value="$PROJECT_DIR$/twofactor-tests" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

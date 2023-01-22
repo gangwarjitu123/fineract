@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/custom/acme/event/externalevent/fineract.custom.acme.event.externalevent.main.iml" filepath="$PROJECT_DIR$/.idea/modules/custom/acme/event/externalevent/fineract.custom.acme.event.externalevent.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/custom/acme/event/starter/fineract.custom.acme.event.starter.main.iml" filepath="$PROJECT_DIR$/.idea/modules/custom/acme/event/starter/fineract.custom.acme.event.starter.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/custom/acme/loan/cob/fineract.custom.acme.loan.cob.main.iml" filepath="$PROJECT_DIR$/.idea/modules/custom/acme/loan/cob/fineract.custom.acme.loan.cob.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/custom/acme/loan/job/fineract.custom.acme.loan.job.main.iml" filepath="$PROJECT_DIR$/.idea/modules/custom/acme/loan/job/fineract.custom.acme.loan.job.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/custom/acme/loan/processor/fineract.custom.acme.loan.processor.main.iml" filepath="$PROJECT_DIR$/.idea/modules/custom/acme/loan/processor/fineract.custom.acme.loan.processor.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/custom/acme/note/service/fineract.custom.acme.note.service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/custom/acme/note/service/fineract.custom.acme.note.service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fineract-avro-schemas/fineract.fineract-avro-schemas.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fineract-avro-schemas/fineract.fineract-avro-schemas.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fineract-provider/fineract.fineract-provider.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fineract-provider/fineract.fineract-provider.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fineract-provider/fineract.fineract-provider.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fineract-provider/fineract.fineract-provider.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/oauth2-tests/fineract.oauth2-tests.test.iml" filepath="$PROJECT_DIR$/.idea/modules/oauth2-tests/fineract.oauth2-tests.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/twofactor-tests/fineract.twofactor-tests.test.iml" filepath="$PROJECT_DIR$/.idea/modules/twofactor-tests/fineract.twofactor-tests.test.iml" />
+    </modules>
+  </component>
+</project>
