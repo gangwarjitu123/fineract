@@ -1,0 +1,53 @@
+{
+    "name": "RateDataV1",
+    "namespace": "org.apache.fineract.avro.portfolio.v1",
+    "type": "record",
+    "fields": [
+        {
+            "default": null,
+            "name": "id",
+            "type": [
+                "null",
+                "long"
+            ]
+        },
+        {
+            "default": null,
+            "name": "name",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "default": null,
+            "name": "percentage",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "productApply",
+            "type": [
+                "null",
+                "org.apache.fineract.avro.generic.v1.EnumOptionDataV1"
+            ]
+        },
+        {
+            "default": null,
+            "name": "active",
+            "type": [
+                "null",
+                "boolean"
+            ]
+        }
+    ]
+}

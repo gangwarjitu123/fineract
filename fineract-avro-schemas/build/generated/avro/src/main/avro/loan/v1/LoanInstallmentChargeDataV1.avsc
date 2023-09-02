@@ -1,0 +1,109 @@
+{
+    "name": "LoanInstallmentChargeDataV1",
+    "namespace": "org.apache.fineract.avro.loan.v1",
+    "type": "record",
+    "fields": [
+        {
+            "default": null,
+            "name": "installmentNumber",
+            "type": [
+                "null",
+                "int"
+            ]
+        },
+        {
+            "default": null,
+            "name": "dueDate",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "default": null,
+            "name": "amount",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "amountOutstanding",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "amountWaived",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "paid",
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        {
+            "default": null,
+            "name": "waived",
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        {
+            "default": null,
+            "name": "amountAccrued",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "amountUnrecognized",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        }
+    ]
+}

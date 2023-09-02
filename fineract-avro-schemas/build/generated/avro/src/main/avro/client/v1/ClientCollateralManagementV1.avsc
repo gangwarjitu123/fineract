@@ -1,0 +1,93 @@
+{
+    "name": "ClientCollateralManagementDataV1",
+    "namespace": "org.apache.fineract.avro.client.v1",
+    "type": "record",
+    "fields": [
+        {
+            "default": null,
+            "name": "quantity",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "id",
+            "type": [
+                "null",
+                "long"
+            ]
+        },
+        {
+            "default": null,
+            "name": "pctToBase",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "unitPrice",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "total",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "totalCollateral",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "name",
+            "type": [
+                "null",
+                "string"
+            ]
+        }
+    ]
+}

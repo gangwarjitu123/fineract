@@ -1,0 +1,545 @@
+{
+    "name": "LoanSchedulePeriodDataV1",
+    "namespace": "org.apache.fineract.avro.loan.v1",
+    "type": "record",
+    "fields": [
+        {
+            "default": null,
+            "name": "period",
+            "type": [
+                "null",
+                "int"
+            ]
+        },
+        {
+            "default": null,
+            "name": "fromDate",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "default": null,
+            "name": "dueDate",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "default": null,
+            "name": "obligationsMetOnDate",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "default": null,
+            "name": "complete",
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        {
+            "default": null,
+            "name": "daysInPeriod",
+            "type": [
+                "null",
+                "int"
+            ]
+        },
+        {
+            "default": null,
+            "name": "principalDisbursed",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "principalOriginalDue",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "principalDue",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "principalPaid",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "principalWrittenOff",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "principalOutstanding",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "principalLoanBalanceOutstanding",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "interestOriginalDue",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "interestDue",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "interestPaid",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "interestWaived",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "interestWrittenOff",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "interestOutstanding",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "feeChargesDue",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "feeChargesPaid",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "feeChargesWaived",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "feeChargesWrittenOff",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "feeChargesOutstanding",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "penaltyChargesDue",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "penaltyChargesPaid",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "penaltyChargesWaived",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "penaltyChargesWrittenOff",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "penaltyChargesOutstanding",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "totalOriginalDueForPeriod",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "totalDueForPeriod",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "totalPaidForPeriod",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "totalPaidInAdvanceForPeriod",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "totalPaidLateForPeriod",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "totalWaivedForPeriod",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "totalWrittenOffForPeriod",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "totalOutstandingForPeriod",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "totalOverdue",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "totalActualCostOfLoanForPeriod",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "totalInstallmentAmountForPeriod",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "totalCredits",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        }
+    ]
+}

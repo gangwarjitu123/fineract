@@ -1,0 +1,93 @@
+{
+    "name": "RepaymentDueDataV1",
+    "namespace": "org.apache.fineract.avro.loan.v1",
+    "type": "record",
+    "fields": [
+        {
+            "default": null,
+            "name": "installmentNumber",
+            "type": [
+                "null",
+                "int"
+            ]
+        },
+        {
+            "default": null,
+            "name": "installmentDueDate",
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        {
+            "default": null,
+            "name": "principalAmountDue",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "interestAmountDue",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "feeChargeAmountDue",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "penaltyChargeAmountDue",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        },
+        {
+            "default": null,
+            "name": "totalAmountDue",
+            "type": [
+                "null",
+                {
+    "logicalType": "decimal",
+    "precision": 20,
+    "scale": 8,
+    "type": "bytes"
+}
+
+            ]
+        }
+    ]
+}
